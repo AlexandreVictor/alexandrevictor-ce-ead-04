@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/Estilo.css">
+   <!-- <script type="text/javascript" language ="javascript" src="./js/jquery-3.2.1.min.js"></script>-->
+    <title>Gerador de Tabuada</title>
+</head>
+    <body>
+    <div class="cabecalho">
+        <h2>Gerador de Tabuadas</h2>
+    </div>
+    <form action="saida.php" method="post" name="form1">
+        <div>
+        <fieldset>
+            <legend>Dados</legend>
+                <table>
+                    <tr>
+                        <td>Criar tabela apartir do número:</td>
+                        <td><input type="text" name="valori_tabuada"  id="input2"></td>
+                        <td> a </td>
+                        <td><input type="text" name="valorf_tabuada"  id="input2"></td>
+                    </tr>
+                    <tr>
+                        <td>Multiplicando os números de:</td>
+                        <td><input type="text" name="multi_tabuada" id="input2"></td>
+                        <td> a </td>
+                        <td><input type="text" name="multf_tabuada" id="input2"></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Gera página" id="gerarpag">
+            </fieldset>
+        </div>
+       
+</form>
+</body>
+</html>
